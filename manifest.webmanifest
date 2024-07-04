@@ -1,11 +1,11 @@
 {
-    "name": "GraphGame",
-    "short_name": "GraphGame",
+    "name": "Looper",
+    "short_name": "Looper",
     "start_url": "index.html",
     "display": "fullscreen",
     "background_color": "#FFFFFF",
     "theme_color": "#fff",
-    "description": "",
+    "description": "Graphs galore",
     "icons": [{
       "src": "TemplateData/icons/unity-logo-light.png",
       "sizes": "144x144",

@@ -1,4 +1,4 @@
-const cacheName = "Geo Games-GraphGame-1.0";
+const cacheName = "Geo Games-Looper-1.0";
 const contentToCache = [
     "Build/graph-game.loader.js",
     "Build/graph-game.framework.js.unityweb",
