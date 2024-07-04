@@ -1,9 +1,9 @@
 const cacheName = "Geo Games-GraphGame-1.0";
 const contentToCache = [
     "Build/Development.loader.js",
-    "Build/Development.framework.js.unityweb",
-    "Build/Development.data.unityweb",
-    "Build/Development.wasm.unityweb",
+    "Build/Development.framework.js",
+    "Build/Development.data",
+    "Build/Development.wasm",
     "TemplateData/style.css"
 
 ];
