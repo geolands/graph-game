@@ -7,8 +7,8 @@
     "theme_color": "#fff",
     "description": "Graphs galore",
     "icons": [{
-      "src": "TemplateData/icons/unity-logo-light.png",
-      "sizes": "144x144",
+      "src": "game-icon-light.png",
+      "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     }]
