@@ -2,7 +2,7 @@ const cacheName = "Geo Games-Polyloop-1.0";
 const contentToCache = [
     "Build/graph-game.loader.js",
     "Build/7f438a3b3e2d69a8302a4a2c2f0e2e91.js.unityweb",
-    "Build/9201c6e1b8a14f26dc05516843ea1e82.data.unityweb",
+    "Build/5f6836a79d0116d2026dee12faaae271.data.unityweb",
     "Build/079e0f2e7a923056b8bc02a65f778eff.wasm.unityweb",
     "TemplateData/style.css"
 
