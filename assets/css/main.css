@@ -3,29 +3,37 @@
 
 /* Polyloop specific */
 .logo-img {
-    width: 64px; /* Adjust width as necessary to match the gem size */
-    height: 64px; /* Ensure aspect ratio matches or adjust accordingly */
+    width: 90px; 
+    height: 90px; 
     display: inline-block;
-    object-fit: contain; /* Ensures the image fits well within its container */
-    margin: 11px auto 0 auto; /* Shift down 10px */
+    object-fit: contain; 
+    margin: 14px auto 0 auto; 
+}
+@media screen and (max-width: 1680px) {
+	.logo-img {
+        width: 64px;
+        height: 64px;
+		margin: 11px auto 0 auto;
+    }
 }
 
-/* Responsive adjustments for smaller screens */
-@media (max-width: 740px) { /* Adjust breakpoint as necessary */
-    .logo-img {
-        width: 48px; /* Smaller size for mobile portrait */
+@media screen and (max-width: 736px) {
+	.logo-img {
+        width: 48px;
         height: 48px;
-		margin: 10px auto 0 auto; /* Shift down 10px */
+		margin: 10px auto 0 auto;
     }
+
 }
 
-@media (max-width: 360px) { /* Adjust breakpoint as necessary */
-    .logo-img {
-        width: 42px; /* Smaller size for mobile portrait */
+@media screen and (max-width: 360px) {
+	.logo-img {
+        width: 42px;
         height: 42px;
-		margin: 10px auto 0 auto; /* Shift down 10px */
+		margin: 10px auto 0 auto;
     }
 }
+/* end Polyloop specific */
 
 .badges {
     display: flex;
