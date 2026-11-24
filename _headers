@@ -1,0 +1,10 @@
+# Remote game content (see GraphGame/Assets/Source/Content/RemoteContent.md).
+# The catalog is the one mutable file: always revalidated, so a publish (or rollback) is seen at once.
+/content/catalog.json
+  Cache-Control: no-cache
+  Access-Control-Allow-Origin: *
+
+# Blobs are named by the hash of their bytes and never change: cache them forever.
+/content/blobs/*
+  Cache-Control: public, max-age=31536000, immutable
+  Access-Control-Allow-Origin: *
