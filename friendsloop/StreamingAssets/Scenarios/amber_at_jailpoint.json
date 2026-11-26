@@ -1,0 +1,6 @@
+{
+  "name": "amber_at_jailpoint",
+  "description": "Sloop moored at Jail Point (+6/min), alarm already amber.",
+  "anchorage": "JailPoint",
+  "alarm": 30
+}
