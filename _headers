@@ -8,3 +8,12 @@
 /content/blobs/*
   Cache-Control: public, max-age=31536000, immutable
   Access-Control-Allow-Origin: *
+
+# Unlisted test build (GraphGame → Build → WebGL for Website Test). Kept out of search engines;
+# its page is always revalidated so a new build shows on the next load (its Build/ files are hashed).
+/test/*
+  X-Robots-Tag: noindex, nofollow
+/test/
+  Cache-Control: no-cache
+/test/index.html
+  Cache-Control: no-cache
